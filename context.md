@@ -149,8 +149,6 @@ Breaks down Skyler’s contributor status by domain. Compares Skyler’s structu
 - Echo Capture Rate (%)
 - Structural Trust Index
 - Traffic (%)
-- Domain Foreign Mass (%)
-- User Foreign Mass (%)
 
 Below the table, list the following:
 
