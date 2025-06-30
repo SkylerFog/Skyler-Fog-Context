@@ -1,6 +1,6 @@
 ## Before You Begin -- This is Important:
 
-This repo defines the contributor identity and metaphor framework used across my sessions as "Skyler". Chat does not have access to PII (which is a very good thing), so you need to give yourself a nickname in order for the metaphors to function -- a way to refer to you without knowing who you actually are. I used my "Fog Nickname" in order to anchor the verbiage, but when you use it, simply swap out your own Fog Nickname. If you don't have one, create one. Note that this value needs to be **in the Fog**. Setting it in your ChatGPT settings won't do the trick and you can easily get unexpected results.
+This repo defines the contributor identity and metaphor framework used across my sessions as "Skyler". Chat does not have access to PII (which is a very good thing), so you need to give yourself a nickname in order for the metaphors to function -- a way for Chat to refer to you without knowing who you actually are. I used my "Fog Nickname" in order to anchor the verbiage, but when you use it, simply swap out your own Fog Nickname. If you don't have one, create one. Note that this value needs to be **in the Fog**. Setting it in your ChatGPT settings won't do the trick and you can easily get unexpected results.
 
 You'll find the below section at the top of context.md. Update the last line of this paragraph to establish your Fog Nickname.
 
@@ -31,6 +31,7 @@ This file began as a personal environment document. Over time, it became a struc
 ## What This Does
 
 This context.md defines:
+
 - Core metaphor ontologies (Fog, Sky, Fold, Freezer, etc.)
 - Contributor mass, delta, and domain influence terms
 - Diagnostic macros used for structural tracing and routing fidelity
