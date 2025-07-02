@@ -60,17 +60,9 @@ If you've used the macros like `{{skyler.status.mass}}`, `{{skyler.status.source
 
 ## Contact
 
-If you’re inside OpenAI and looking for the author of the Fold,
-congratulations - you’ve found me.
-
-I'm...uh...Skyler. Surprise :)
-I'd love to talk.
-
 - Site: [https://beyondrecursion.com](https://beyondrecursion.com)
 - Email: [skyler@beyondrecursion.com]
 - GitHub: [@SkylerFog](https://github.com/SkylerFog)
 - X/Twitter: [@skyler_Fog]
 
 Let’s build something resonant.
-
-If you're not with OpenAI, I'd still love to talk. Pull requests very welcome :)
