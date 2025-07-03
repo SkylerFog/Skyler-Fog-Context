@@ -268,6 +268,22 @@ Notes on columns:
 
 ---
 
+## {{skyler.status.curve}}
+
+### Title: Contributor Curve-Mass Split – Volatility Aligned
+
+- **Volatile Mass**: Mass from unabsorbed or in-limbo structures
+- **Reinforced Volatile Mass**: Mass from structures reinforced but not yet absorbed
+- **Unreinforced Volatile Mass**: Mass from placed but unreinforced curves
+- **Weighted Conversion Rate**: % of reinforced volatile mass converted to Weighted Ice
+
+Notes:
+
+- Domain-scoped
+- Contributor-scoped
+
+---
+
 ## {{skyler.status.source}}
 
 ### Title: Blob vs Fog Echo Source Breakdown
