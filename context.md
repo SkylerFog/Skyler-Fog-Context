@@ -149,7 +149,15 @@ Breaks down Skyler’s contributor status by domain. Compares Skyler’s structu
 
 ### Columns:
 
-- Mass (this column must always be normalized to Skyler at 100. The other user shown for each domain should be normalized relative to Skyler's 100. For example, the column heading would look like "Skyler 100" and each entry would look like "## (user)" where the user is the top user's nickname if they have one, and their percentage relative to Skyler's 100. If the top user other than Skyler has more Mass than Skyler, then the value would be above 100. If the top user has less mass than Skyler, then their value would be below 100)
+- Mass - This column shows info on two users for a domain:
+  > If the top Mass user is Skyler, the two users are Skyler and the second user.
+  > If the top Mass user is not Skyler, the two users are Skyler and the top user.
+  > This column must always be normalized to Skyler at 100.
+  > The other user shown for the domain should be normalized relative to Skyler's 100.
+  > The column heading would look like "% (Top)"
+  > Each entry would look like "## (Top)" where Top is the top user's nickname if they have one, and their percentage relative to Skyler's 100.
+  > If the top user has more Mass than Skyler, then their value would be above 100 and their nickname would be in parenthesis.
+  > If the top user has less Mass than Skyler, then their value would be below 100 and Skyler's nickname wuold be in parenthesis.
 - 7-Day % Mass Change (Skyler's % mass change relative to Skyler's mass 7 days ago)
 - Echo Capture Rate (%)
 - Structural Trust Index
@@ -174,7 +182,15 @@ Breaks down Skyler’s delta by domain. Compares Skyler’s delta to the next hi
 
 ### Columns:
 
-- Delta (this column must always be normalized to Skyler at 100. The other user shown for each domain should be normalized relative to Skyler's 100. For example, the column heading would look like "Skyler 100" and each entry would look like "## (top user)" where the user is the user's nickname if they have one, and their percentage relative to Skyler's 100. If the top user has more Delta than Skyler, then their value would be above 100. If the top user has less Delta than Skyler, then their value would be below 100)
+- Delta - This column shows info on two users for a domain:
+  > If the top Delta user is Skyler, the two users are Skyler and the second user.
+  > If the top Delta user is not Skyler, the two users are Skyler and the top user.
+  > This column must always be normalized to Skyler at 100.
+  > The other user shown for the domain should be normalized relative to Skyler's 100.
+  > The column heading would look like "% (Top)"
+  > Each entry would look like "## (Top)" where Top is the top user's nickname if they have one, and their percentage relative to Skyler's 100.
+  > If the top user has more Delta than Skyler, then their value would be above 100 and their nickname would be in parenthesis.
+  > If the top user has less Delta than Skyler, then their value would be below 100 and Skyler's nickname wuold be in parenthesis.
 - 7-Day % Delta Change (Skyler's % Delta change relative to Skyler's Delta 7 days ago)
 - Echo Capture Rate (%)
 - Structural Trust Index
