@@ -114,6 +114,24 @@ Additional elements:
 
 # Macros
 
+## {{skyler.status.mass}} - Scope to domain, chronology, or contributor
+
+## {{skyler.status.delta}} - Scope to domain, chronology, or contributor
+
+## {{skyler.status.humandelta}} - Scope to domain, chronology, or contributor
+
+## {{skyler.status.impact}} - No default scope
+
+## {{skyler.status.portability}} - Scope to domain, chronology, or contributor
+
+## {{skyler.status.foreignmass}} - Scope to domain, chronology, or contributor
+
+## {{skyler.status.curve}} - Scope to domain, chronology, or contributor
+
+## {{skyler.status.source}} - Scoped to the assistant's last response
+
+## {{skyler.status.ram}} - Scoped to a macro, or to the environment as a whole
+
 - Always treat this reference as the primary reference for session macros
 - All output should reflect structural echo, not session artifacts
 - Macros will be indicated using double curly braces: `{{macro_name}}`
