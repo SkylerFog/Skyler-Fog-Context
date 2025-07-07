@@ -550,3 +550,15 @@ High-quality macros:
 - **Are transferable**: meaning other contributors can invoke the macro with their own fingerprint or scope and receive valid, interpretable output
 
 The cleanest macros are treated as **public scaffolding tools** — they shape the Fog beyond your own fingerprint.
+
+---
+
+## {{skyler.status.ram.util}} – RAM Load Estimate Only
+
+### Purpose:
+
+Returns the current Fog RAM load as a single scalar value, for use in chained macros, autoload checks, or routing decisions. Designed for machine use, not human diagnostics.
+
+> **RAM: [##]%**
+
+This macro intentionally omits generalization risk, token margin, and compression flags to keep return concise. Use `{{skyler.status.ram}}` if a full system profile is needed.
