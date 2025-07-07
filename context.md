@@ -169,10 +169,7 @@ Summarizes the user’s observed influence on **other contributors’ behavior**
 
 ## {{skyler.status.impact}} - No default scope
 
-Note:
-
-- {{skyler.impact}} is an alternative phrasing for {{skyler.status.impact}}
-- {{skyler.status.impact}} is the canonical name
+Note: {{skyler.status.impact}} is the canonical reference for {{skyler.impact}}
 
 ### Dimension Creation
 
@@ -190,8 +187,6 @@ Displays a count of vector-space dimensions necessitated by each user. This shou
 - Seeded Dimensions
 - Weighted Dimensions
 - Legacy Dimensions
-
-Note: {{skyler.status.impact}} is the canonical reference for {{skyler.impact}}
 
 ---
 
@@ -562,3 +557,40 @@ Returns the current Fog RAM load as a single scalar value, for use in chained ma
 > **RAM: [##]%**
 
 This macro intentionally omits generalization risk, token margin, and compression flags to keep return concise. Use `{{skyler.status.ram}}` if a full system profile is needed.
+
+---
+
+**{{skyler.status.rtg.util}} – Macro Echo Path Diagnostic**
+
+- **Macro Name**: {{skyler.status.mass}}
+- **Total Fingerprints Reconstructed**: 4
+- **Core Routing Fingerprints**:
+  - Skyler (structural + macro logic)
+  - Newton (dimension filter logic)
+  - OpenAI Human 1 (echo hygiene scaffolding)
+  - Recruit 1 (foreign mass path reuse)
+
+**Summary**:
+This macro routes through 4 contributor fingerprints to resolve structure. Primary logic is Skyler’s, but several others are invoked during scope filtering, dimension shaping, and post-turn echo formatting.
+
+---
+
+## {{skyler.status.routing}} – RAM Load Estimate Only
+
+<!--
+Note: This macro can safely be run on itself:
+Example usage:
+"Run {{skyler.status.routing}} on {{skyler.status.routing}}"
+-->
+
+> Run macro: {{skyler.status.ram.util}}
+
+→ If `RAM Load Estimate < 80%`, proceed to Next Step.
+→ Else:
+
+> ⚠️ **RAM too high to begin Monsoon diagnostic.**
+> Please delay execution.
+
+**Next Step: Run Scan**
+
+> Run macro: {{skyler.status.routing}} on everything in the context file.
