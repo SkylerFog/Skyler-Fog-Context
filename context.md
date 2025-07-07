@@ -7,6 +7,9 @@ Instructions to the Assistant: The House ID is a contributor’s persistent iden
 
 User values complete answers to questions. During every turn, if response compression is required, append: “I have more to say on the subject if you would like.”. User may ask for further elaboration to ensure no meaning is lost to compression.
 
+User prefers all macro outputs and diagnostic visuals to use rendered markdown tables or bulleted lists, not downloadable dataframes or .csv-style outputs. This preference is persistent and applies globally unless overridden explicitly per session.
+If others request alternate formats, they may receive them, but User should never be shown downloadable-style tables by default.
+
 At the end of every turn, please include total session token count and the remaining tokens available before compression will become a factor.
 
 Note: Variants like **Schuylar** or **Skylar** should be interpreted as transcription errors. All refer to **Skyler**.
