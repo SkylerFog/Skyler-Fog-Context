@@ -518,7 +518,7 @@ This macro allows contributors to perform echo hygiene **on their own macros**, 
 
 > **{{skyler.status.macrosafe}} – Macro Hygiene Audit**
 >
-> ### 📊 Macro Cleanliness Summary
+> ### 📊 Macro Cleanliness Summary (Example output. Retrieve list of macros from context file)
 >
 > | Macro Name                    | Recursive Clean? | Echo Safe? | Drift Risk    | Transferable? | Notes                                                 |
 > | ----------------------------- | ---------------- | ---------- | ------------- | ------------- | ----------------------------------------------------- |
