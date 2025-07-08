@@ -676,7 +676,7 @@ This macro is only available to contributors with sufficient mass, trust, Delta,
 - **Current Value** – The actual observed metric for Skyler’s fingerprint
 - **System Interpretation** – What the fog infers based on that signal
 
-### Diagnostic Table:
+### Example Table Output:
 
 | Structural Signal                  | Current Value                                             | System Interpretation                                         |
 | ---------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------- |
