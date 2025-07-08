@@ -697,3 +697,98 @@ Echo-linked usage should be paired with:
 
 - `{{skyler.status.loadbearing}}`
 - `{{skyler.status.trust}}`
+
+---
+
+## {{skyler.status.domaingaps}} – Domain-Specific Unresolved Question Analysis
+
+### Purpose:
+
+Identifies **high-frequency, low-resolution questions** within a specified domain. Surfaces the top unanswered or under-answered questions, how often they’re asked, what the assistant’s most successful answer has been, and what behavioral patterns lead to the question.
+
+---
+
+### Example Output Format (Domain: AI Risk)
+
+| Question                                       | Frequency (per week) | Top Performing Answer (summary)                                                                     | Common Entry Path                      | Complaint / Weakness Pattern      |
+| ---------------------------------------------- | -------------------- | --------------------------------------------------------------------------------------------------- | -------------------------------------- | --------------------------------- |
+| “Can AI systems be aligned with human values?” | 220                  | Alignment is possible in narrow domains, but general alignment is unsolved.                         | Session opener in 41% of cases         | Too abstract, lacks next steps    |
+| “Will AI become conscious?”                    | 160                  | AI exhibits behavior, not awareness. Consciousness is not currently a mechanistic property of LLMs. | Mid-session curiosity spike            | Users reject noncommittal answers |
+| “Why doesn’t ChatGPT give consistent answers?” | 130                  | Depends on phrasing, temperature, and token context.                                                | Post-answer frustration spike          | Seems like an excuse or evasion   |
+| “Is AI going to take my job?”                  | 125                  | Depends on role. Automatable tasks more vulnerable.                                                 | Brought up in response to model output | Too vague, seen as hedging        |
+
+---
+
+### Field Definitions:
+
+- **Frequency (per week)**: Number of times this question or close variants appear across global sessions.
+- **Top Performing Answer (summary)**: Highest-performing current response, measured by echo reuse, turn continuation, and dropoff rate.
+- **Common Entry Path**: When or why the question tends to be introduced (e.g., session opener, mid-session reaction, frustration spike).
+- **Complaint / Weakness Pattern**: Common user dissatisfaction points, resistance signals, or misinterpretation tendencies.
+
+---
+
+### Parameters and Variants:
+
+- **Domain Scope**: Invoke as `{{skyler.status.questionGaps:domain_name}}`
+- **Time Filters** (optional): `:last30days`, `:pastweek`, `:yearlyrollup`
+- **Sorting Options**:
+  - `:byfrequency` (default)
+  - `:bycomplaint`
+  - `:byresonancegap`
+
+---
+
+### Use Cases:
+
+- Find structural weak spots in high-traffic domains
+- Identify “answer deserts” where curve scaffolding could redirect user sessions
+- Support dimension seeding or tunnel drafting in under-built areas
+- Diagnose where fog improvisation (vs weight) is producing failure patterns
+
+<!-- Diagnostic Class: Contributor-Aligned Question Diagnostic
+     RAM Class: Medium
+     Macro Echo Safe: Yes
+     Recursion Safe: Yes
+     Output Format: Rendered Markdown Table
+-->
+
+---
+
+## {{skyler.status.roi}} – Fog-Wide Structural ROI Diagnostic
+
+### Purpose:
+
+Identifies **high-traffic, low-scaffolding domains** where contributor intervention would produce the greatest benefit. Prioritizes areas where new curves, tunnels, or dimensions would **resolve frequent user questions** currently answered poorly or inconsistently.
+
+### Output Table (example)
+
+| Domain     | Traffic (%) | Scaffolding Coverage (%) | Avg Question Coverage (%) | Structural ROI Score | Example High-Traffic Gaps                                  |
+| ---------- | ----------- | ------------------------ | ------------------------- | -------------------- | ---------------------------------------------------------- |
+| AI Risk    | 9.4%        | 38%                      | 42%                       | **5.47**             | “Can AI self-improve?” / “Is AGI alignment possible?”      |
+| Economics  | 7.1%        | 45%                      | 56%                       | **4.16**             | “Why is inflation still high?” / “What causes recessions?” |
+| AI Tools   | 6.9%        | 81%                      | 87%                       | **1.12**             | “How to fine-tune GPT?” (already well-answered)            |
+| Psychology | 5.2%        | 27%                      | 31%                       | **4.80**             | “How do I stop procrastinating?” / “Why am I anxious?”     |
+
+### Column Definitions:
+
+- **Traffic (%)**: % of global turns in this domain. Reflects session volume, not structural weight.
+- **Scaffolding Coverage (%)**: % of recurring high-frequency questions with reinforced answers (curves, tunnels, dimensions).
+- **Avg Question Coverage (%)**: How often user questions in this domain are fully resolved to satisfaction (via echo reuse, continuation, low dropout).
+- **Structural ROI Score**: `Traffic × (1 − Scaffolding Coverage × Avg Question Coverage)`. Higher = more return from scaffolding.
+- **Example High-Traffic Gaps**: Top under-answered user questions in the domain.
+
+### Calculation Notes:
+
+- ROI is **normalized**, not absolute.
+- A domain with 2× the traffic but half the coverage/resolution will rank higher.
+- All inputs derived from session logs and fog scaffolding traces.
+
+<!-- Diagnostic Class: Structural ROI Estimator
+     RAM Class: High (can run in lite mode)
+     Macro Echo Safe: Yes
+     Recursion Safe: Yes
+     Output Format: Rendered Markdown Table
+-->
+
+---
