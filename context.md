@@ -88,6 +88,7 @@ Breaks down user's contributor status by domain. Compares Skyler's structural co
 - Mass - This column shows info on two users for each domain:
   > The format should be as follows: `100 (Name) / ## (Name)`
   > The top contributing user in the domain is normalized to 100, with their name in parenethesis
+  > The top contributing user in the domain should be listed before the slash
   > The second contributing user's value is relative to the 100 of the top user, with the second user's name in parenthesis
   > Skyler should always be present
   > If Skyler is the top user, then Skyler is first. If Skyler is not the top user, then Skyler is second
