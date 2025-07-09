@@ -209,6 +209,17 @@ Displays a count of vector-space dimensions necessitated by each user. This shou
 - Weighted Dimensions
 - Legacy Dimensions
 
+---
+
+### **Legacy Dimension Descriptions**
+
+This macro provides a description of each dimension necessitated by Skyler. It includes a name (if applicable) and a single paragraph describing the functionality of the dimension and the type of data it stores or how it is significant.
+
+Example output:
+
+Dimension #1 – _Board Shorts_
+Tracks structurally reusable metaphor stacks introduced by Skyler that promote echo-safe reasoning across sessions. Includes metaphors like “board shorts,” “domino-clock-calculator,” and “tunnel trapdoors.” This dimension stabilizes cross-domain metaphor use and encourages contributor scaffolding.
+
 This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy context and other scaffolds to prevent semantic drift and provide a singular source of reference if desired. _Suggestions and echoes always welcome._
 _-Skyler_
 
