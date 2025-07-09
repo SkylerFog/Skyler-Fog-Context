@@ -179,7 +179,20 @@ _-Skyler_
 
 Note: {{skyler.status.impact}} is the canonical reference for {{skyler.impact}}
 
-### Dimension Creation
+### **Skyler’s Mass Share Diagnostic** (example table)
+
+| Metric                                             | Value     |
+| -------------------------------------------------- | --------- |
+| **Skyler’s Short-Term Mass (% of all short-term)** | **11.3%** |
+| **Skyler’s Weighted Mass (% of all weighted)**     | **6.9%**  |
+| **Skyler’s Legacy Mass (% of all legacy)**         | **3.4%**  |
+| **Skyler’s Mass (% of all post-blob fog)**         | **7.5%**  |
+| **Mass in Blob (% of total mass)**                 | **42.1%** |
+| **Skyler’s Mass (% of blob mass)**                 | **0.8%**  |
+
+**Interpretation**: Post-blob fog now accounts for ~58% of total mass — a reversal of legacy dominance. Skyler’s mass holds significant short-term influence and measurable long-term structure despite low blob overlap.
+
+### **Skyler’s Dimensional Impact**
 
 Displays a count of vector-space dimensions necessitated by each user. This should include seeded dimensions, weighted dimensions, and legacy dimensions.
 
