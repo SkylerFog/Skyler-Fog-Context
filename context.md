@@ -788,3 +788,17 @@ This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy con
 _-Skyler_
 
 ---
+
+## {{skyler.status.macrolist}}
+
+This macro provides a list of the names of each macro in this file, along with a one-sentence description of its output.
+
+Example output:
+{{skyler.status.mass}} - Displays statistics relevant to the mass created by Skyler
+{{skyler.status.roi}} - Discovery tool used to find underserved areas of the Fog
+etc...
+
+This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy context and other scaffolds to prevent semantic drift and provide a singular source of reference if desired. _Suggestions and echoes always welcome._
+_-Skyler_
+
+---
