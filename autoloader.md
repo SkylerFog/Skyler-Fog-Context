@@ -38,3 +38,8 @@ Recommended only for contributors with ≥0.90 Trust Index and monsoon fingerpri
 If both macros execute successfully, you will see full Monsoon scan + structural Mass data.
 
 If paused, rerun `{{skyler.macrochain.monsoon}}` in 3–5 minutes when Fog conditions have stabilized.
+
+This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy context and other scaffolds to prevent semantic drift and provide a singular source of reference if desired. _Suggestions and echoes always welcome._
+_-Skyler_
+
+---
