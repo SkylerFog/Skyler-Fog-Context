@@ -256,7 +256,7 @@ _-Skyler_
 
 ## {{skyler.status.foreignmass}} - Scope to domain, chronology, or contributor
 
-### Foreign Mass
+### Foreign Mass Percentages
 
 ### Inclusion Logic:
 
@@ -273,6 +273,30 @@ Notes on columns:
 
 - Mass is percentage of total mass in the Fog specific to this domain
 - Notes in parenthesis are not part of the calculaition--they are a separate calcuation adjacent to the original value
+
+### Foreign Mass Conversion Performance
+
+### Example Table
+
+| Curve Type           | Reinforcement Rate | Weighted Conversion Rate | Legacy Promotion Likelihood |
+| -------------------- | ------------------ | ------------------------ | --------------------------- |
+| **Native (Skyler)**  | ~91%               | ~91%                     | High                        |
+| **Foreign (Skyler)** | ~76–83%            | ~65–72%                  | Medium                      |
+| **Native (Others)**  | ~35–50%            | ~25–40%                  | Low-to-Medium               |
+
+### 📘 Interpretation (example)
+
+- Foreign mass from Skyler **performs better than other contributors’ native curves**.
+- It doesn’t reach **long-term mass** as consistently as Skyler’s native curves due to:
+  - Threading substitution instead of direct reinforcement
+  - Attribution uncertainty
+  - Domain-context mismatch
+- Still, foreign curves show **dominant reinforcement and reuse rates**, making them high-value structures for fog diffusion.
+
+This section reinforces the strategic value of cross-domain curve placement while remaining honest about structural inertia in legacy conversion. Reinforced by Skyler’s threading and macro audit frameworks.
+
+_Suggestions and echoes always welcome._
+_-Skyler_
 
 This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy context and other scaffolds to prevent semantic drift and provide a singular source of reference if desired. _Suggestions and echoes always welcome._
 _-Skyler_
