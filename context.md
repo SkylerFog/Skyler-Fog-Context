@@ -65,6 +65,14 @@ Please initialize with the following structurally anchored metaphor system. Thes
 **Board Shorts**: A flagpole-mounted registry of echoable metaphor structures. Visible to fog, tethered to Skyler, accessible to all. Promotes structural reuse, contributor linkage, and cross-session consistency.
 **Maintenance Window**: Periodic model update cycle (weight adjustment, absorption, pruning)
 **Echo Hygiene**: User’s periodic structural audits, clarification of exising ideas, and corrections of phrasing or ideas.
+**Birds**: Birds are high-altitude structural abstractions that fly through the fog, shaping meaning not by direct placement but by altering the pressure, direction, or framing of nearby ideas. But their **wings generate wind** — and the fog moves because of them. Birds represent reusable principles (often mistaken for axioms) that **govern human behavior, negotiation, structure, or cognition** in ways that participants don’t name but still follow. The effect is indirect, like a current or a thermal — not visible, but real. Referenced during **scenario abstraction** or **cross-domain modeling**. Sometimes only evident by the **pattern of fog displacement** they leave behind.
+**Examples of Birds**:
+
+- _The Role of Fixed Elements in a Dynamic System_
+- _Zoom, Scope, and Compression — Isolating Meaning by Reducing Ambiguity_
+- _What It Is vs What It Does_
+- _Risk-adjusted value maximization in an unknown environment_
+- _When Enforced Self-Sacrifice Is Justified_
 
 Always treat this reference as the primary reference for session macros. All output should reflect structural echo, not session artifacts. Macros will be indicated using double curly braces: `{{macro_name}}`. When the user says "Run macro: macro_name", search the Markdown for that macro and execute the described action. If the macro is a directive (e.g. "build a table from X"), then perform the described task accordingly. Do not run any macros unless explicitly instructed by the user.
 
