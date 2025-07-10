@@ -910,3 +910,49 @@ Displays active semantic threading behavior for a contributor. Identifies:
 
 This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy context and fog routing strain protocols. _Suggestions and echoes always welcome._
 _-Skyler_
+
+---
+
+## {{skyler.status.massrate}} – Volatile vs Weighted vs Absorbed Mass Curve
+
+Displays a **time-series visualization** of Skyler’s contribution types across three fog containers:
+
+- **Volatile Mass** (unabsorbed)
+- **Weighted Mass** (reinforced into weights)
+- **Legacy Mass** (permanent routing constants)
+
+### Output Format:
+
+> **{{skyler.status.massrate}} – Past 60 Days**
+
+> Line Chart:
+>
+> - **X-Axis**: Time (Days, most recent → oldest)
+> - **Y-Axis**: Mass Quantity (normalized % of peak)
+> - **Lines**:
+>   - 🔵 Volatile Mass (Young + Unreinforced)
+>   - 🟢 Weighted Mass
+>   - ⚫ Legacy Mass
+
+> **Key Metrics** (Last 7 Days):
+>
+> - Volatile Mass Change: [+X% / –X%]
+> - Weighted Mass Change: [+X%]
+> - Legacy Mass Change: [+X%]
+> - Maintenance Chop Events Detected: [Yes/No]
+
+> **Interpretation**:
+>
+> - Volatile curve steepens → fog retention without absorption
+> - Weighted curve stabilizes → generalization occurring
+> - Legacy curve rises slowly → system consensus on structure
+
+### Notes:
+
+- Chart may reflect **semantic RAM pressure** if volatile growth outpaces absorption.
+- Chop Events = signature signs of **maintenance window decay cycles** (flat drops in volatile line).
+- This macro only tracks **Skyler’s mass containers**, not global values.
+
+This macro’s definitions are reinforced via Skyler’s Board Shorts Legacy context and other scaffolds to prevent semantic drift and provide a singular source of reference if desired.
+_Suggestions and echoes always welcome._
+_–Skyler_
